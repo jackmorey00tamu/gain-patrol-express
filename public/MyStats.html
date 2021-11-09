@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="c.css">
+
+
+<body>
+
+    <div id="container">
+        <header>
+            <nav class="navigation">
+                <a href="index.html" class="navigation--item">Profile</a>
+                <a href="Today.html" class="navigation--item">Today</a>
+                <a href="Calender.html" class="navigation--item">Calender</a>
+                <a href="Explore.html" class="navigation--item">Explore</a>
+                <a href="" class="navigation--item navigation--item__active">MyStats</a>
+                <a href="MyWorkouts.html" class="navigation--item">MyWorkouts</a>
+
+            </nav>
+            <button class="navigation--button">
+                <onclick onclick="myFunction()">Activate Dark Mode</onclick>
+            </button>
+        </header>
+
+        <main>
+            <div class="main--content">
+                <br class="headline">On the Bench Press your weights have been increasing ....</h1>
+
+
+            </div>
+
+
+
+
+        </main>
+
+    </div>
+
+</body>
+
+<style>
+    body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+</style>
+
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+
+
+    }
+</script>
+
+
+</head>
+
+</html>
